@@ -1,27 +1,25 @@
 #AdminHome .ContainerContent .Content .boxData {
-    width: 300px;
-    height: 100px;
-    background-color: white;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    box-shadow:  5px 5px 20px #e6e6e6,
-                -5px -5px 20px #ffffff;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 5px 5px 20px #e6e6e6, -5px -5px 20px #ffffff;
 }
 
 #AdminHome .ContainerContent .Content .boxData .Icons {
-    width: 100px;
-    height: 100%;
-    border-radius: 5px;
+  width: 100px;
+  height: 100%;
+  border-radius: 5px;
 }
 
 .boxDoughnut {
-    width: 400px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow:  5px 5px 20px #e6e6e6,
-                -5px -5px 20px #ffffff;
-    margin-top: 40px;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #e6e6e6, -5px -5px 20px #ffffff;
+  margin-top: 40px;
 }

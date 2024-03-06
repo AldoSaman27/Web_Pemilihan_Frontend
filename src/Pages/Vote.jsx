@@ -7,8 +7,10 @@ import "../Styles/Vote.css";
 // Import Images
 import Loading from "../Assets/loading.gif";
 
-//
+// Axios
 import axios from "axios";
+
+// Sweet Alert 2
 import Swal from "sweetalert2";
 import {
   Button,
@@ -20,6 +22,8 @@ import {
   FloatingLabel,
   Alert,
 } from "react-bootstrap";
+
+// React
 import { useEffect, useState } from "react";
 
 const Vote = () => {

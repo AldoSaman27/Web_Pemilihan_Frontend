@@ -8,10 +8,16 @@ import SideBar from "./Components/SideBar";
 // Import Images
 import Loading from "../../Assets/loading.gif";
 
-//
+// Axios
 import axios from "axios";
+
+// Sweet Alert 2
 import Swal from "sweetalert2";
+
+// React
 import { useEffect, useState } from "react";
+
+// React Bootstrap
 import {
   Button,
   Card,
@@ -20,6 +26,8 @@ import {
   Form,
   FloatingLabel,
 } from "react-bootstrap";
+
+// React Router Dom
 import { useNavigate } from "react-router-dom";
 
 const PasanganCalon = () => {

@@ -1,9 +1,13 @@
 // Import Styles
 import "../Styles/Kandidat.css";
 
-//
+// Axios
 import axios from "axios";
+
+// React Bootstrap
 import { Button, Container, Card, ListGroup, Modal } from "react-bootstrap";
+
+// React
 import { useEffect, useState } from "react";
 
 const Kandidat = () => {

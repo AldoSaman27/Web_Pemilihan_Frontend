@@ -1,18 +1,22 @@
 // Import Styles
 import "./App.css";
+
+// Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Import Pages
 import Home from "./Pages/Home";
-import NotFound from "./Pages/NotFound";
 import Vote from "./Pages/Vote";
+import NotFound from "./Pages/NotFound";
+
+// Admin Pages
 import AdminLogin from "./Pages/Admin/AdminLogin";
 import AdminHome from "./Pages/Admin/AdminHome";
 import PasanganCalon from "./Pages/Admin/PasanganCalon";
-
-//
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Pemilih from "./Pages/Admin/Pemilih";
+
+// React Router Dom
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (

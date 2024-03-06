@@ -1,44 +1,44 @@
 .SideBar {
-    width: 20%;
-    min-height: 100vh;
-    background-color: #0d6efd;
+  width: 20%;
+  min-height: 100vh;
+  background-color: #0d6efd;
 }
 
 .SideBar .Headers {
-    width: 100%;
-    height: 60px;
-    border-bottom: 0.1px solid #C3C3C3;
+  width: 100%;
+  height: 60px;
+  border-bottom: 0.1px solid #c3c3c3;
 }
 
 .SideBar ul {
-    margin: 0px;
-    padding: 10px 0px;
+  margin: 0px;
+  padding: 10px 0px;
 }
 
 .SideBar ul h6 {
-    margin: 10px;
+  margin: 10px;
 }
 
 .SideBar ul .GapLine {
-    border-bottom: 0.1px solid #C3C3C3;
-    margin: 10px 0px;
+  border-bottom: 0.1px solid #c3c3c3;
+  margin: 10px 0px;
 }
 
 .SideBar ul li {
-    padding: 10px;
-    padding-left: 20px;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 .SideBar ul li:hover {
-    cursor: pointer;
-    border-left: 2px solid white;
+  cursor: pointer;
+  border-left: 2px solid white;
 }
 
 .SideBar ul li.LogOut:hover {
-    cursor: pointer;
-    border-left: 2px solid red;
+  cursor: pointer;
+  border-left: 2px solid red;
 }
 
 .SideBar ul li.Active {
-    border-left: 2px solid white;
+  border-left: 2px solid white;
 }
