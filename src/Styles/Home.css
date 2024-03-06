@@ -1,0 +1,43 @@
+.home-background {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../Assets/smkn3gorontalo.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.home-background::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.home-content {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content h1,
+.home-content h2 {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 430px) {
+    .home-content h1 {
+        font-size: 22px;
+    }
+    .home-content h2 {
+        font-size: 20px;
+    }
+}

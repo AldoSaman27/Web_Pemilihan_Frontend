@@ -1,0 +1,13 @@
+.box h1 {
+    font-size: 100px;
+}
+
+.box p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 430px) {
+    .Waktu {
+        flex-direction: column;
+    }
+}
